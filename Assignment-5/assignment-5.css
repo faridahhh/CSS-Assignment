@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  min-height: 795px;
+  width: 892px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  max-width: 580px;
+  max-height: 650px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #2B404E18;
+  
+  
+}
+
+section.checkout-details {
+  padding: 30px;
+  border-right: 1px solid #ddd;
+  width: 100%;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 21.6px;
+
+}
+
+.form-details {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+
+}
+
+.form-details div {
+  flex: 1;
+  
+}
+
+label {
+  display:block;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(238, 229, 229);
+}
+
+.full-width {
+  width: 100%;
+
+}
+
+.payment-info {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+
+.payment-info input {
+  width: 100%;
+
+}
+
+.all-buttons {
+  background-color: #038E7D;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.all-buttons:hover {
+  background-color: #218838;
+}
+
+.for-support {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Detail Section */
+.checkout-sidebar {
+  
+  background-color: #1179BF;
+  color: #fff;
+  max-width: 250px;
+  height: 795px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  justify-items: center;
+  align-items: ;
+
+}
+
+.price {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.small-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.benefits {
+  margin-top: 20px;
+
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits ul li {
+  margin-bottom: 8px;
+
+}
+
+.reviews {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img {
+  
+}
+
+
